@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Ivan Podlipnyak <podlipnyak@econ.vsu.ru>"]
 readme = "README.md"
-packages = [{include = "llama_openai"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
