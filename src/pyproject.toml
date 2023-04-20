@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "llama-openai"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Podlipnyak <podlipnyak@econ.vsu.ru>"]
+readme = "README.md"
+packages = [{include = "llama_openai"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+llama-index = "^0.5.18"
+Flask = "^2.2.3"
+pytest = "^7.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
