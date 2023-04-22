@@ -5,10 +5,11 @@ services:
     build:
       context: .
     ports:
-      - "8000:8000"
+      - "5602:5602"
     volumes:
       - ./src/:/src
         # command: python manage.py runserver 0.0.0.0:8000
     command: python3 main.py
     environment:
       - DEBUG=1
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
