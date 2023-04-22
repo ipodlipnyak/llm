@@ -10,6 +10,8 @@ services:
       - ./src/:/src
         # command: python manage.py runserver 0.0.0.0:8000
     command: python3 main.py
-    environment:
-      - DEBUG=1
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    env_file:
+      - docker.env
+        #  environment:
+        #    - DEBUG=1
+        #    - OPENAI_API_KEY=${OPENAI_API_KEY}
