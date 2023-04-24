@@ -21,7 +21,7 @@ There is no authorisation guards. And indexes just dumps as `test_index.json` fi
 Other way around would be to start project inside python venv.
 
 ``` bash
-export OPEN_API_KEY=yourOpenaiaApiKey
+export OPEN_API_KEY=yourOpenaiApiKey
 poetry run python3 main.py
 ```
 
