@@ -15,6 +15,7 @@ docker compose up -d
 There is no authorisation guards. And indexes just dumps as json file.
 
 ## You should look into this projects
-[https://abetlen.github.io/llama-cpp-python/](LLaMa-python) - good start to try llm
-[https://gpt-index.readthedocs.io/en/latest/index.html](LLaMa Index) - awesome llm framework
+
+- [LLaMa-python](https://abetlen.github.io/llama-cpp-python/) - good start to try llm
+- [LLaMa Index](https://gpt-index.readthedocs.io/en/latest/index.html) - awesome llm framework
 
