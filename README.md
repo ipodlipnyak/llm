@@ -2,7 +2,7 @@ Containerized api ready to use as a microservice in your private network.
 
 ### Docker
 
-Copy `docker.env.example` into `docker.env` and fill `OPEN_API_KEY` variabel with your value.
+Copy `docker.env.example` into `docker.env` and fill `OPEN_API_KEY` variabel with [your value](https://platform.openai.com/account/api-keys).
 
 ``` bash
 cp docker.env.example docker.env
