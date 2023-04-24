@@ -29,3 +29,4 @@ poetry run python3 main.py
 
 - [LLaMa Index](https://gpt-index.readthedocs.io/en/latest/index.html) - awesome llm framework
 - [LLaMa-python](https://abetlen.github.io/llama-cpp-python/) - good start to try llm with python
+- [Hugging Face](https://huggingface.co/)
