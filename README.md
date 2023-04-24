@@ -14,7 +14,7 @@ Start it and route other apps to it.
 docker compose up -d
 ```
 
-There is no authorisation guards. And indexes just dumps as json file.
+There is no authorisation guards. And indexes just dumps as `test_index.json` file.
 
 ### Poetry
 
